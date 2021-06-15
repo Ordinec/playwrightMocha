@@ -1,0 +1,20 @@
+{
+  "name": "playwright_mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.spec.js -timeout 50000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ordinec/playwrightMocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.0.0",
+    "playwright": "^1.12.2"
+  }
+}
