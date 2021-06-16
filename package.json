@@ -8,13 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ordinec/playwrightMocha"
+    "url": "git+https://github.com/Ordinec/playwrightMocha --require @babel/register"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-env": "^7.14.5",
+    "chai": "^4.3.4",
     "core-js": "^3.14.0",
+    "faker": "^5.5.3",
     "mocha": "^9.0.0",
     "playwright": "^1.12.2",
     "regenerator-runtime": "^0.13.7"
