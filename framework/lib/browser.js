@@ -11,7 +11,7 @@ async function goto(url){
 
 async function run(){
     browser = await chromium.launch({
-        headless: false,
+        headless: true,
         slowMo: 1000,
     });
     context = await browser.newContext();
